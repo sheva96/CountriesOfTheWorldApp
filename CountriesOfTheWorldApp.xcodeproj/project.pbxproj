@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842E1E94256159F000C5144E /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E1E93256159F000C5144E /* Extension + UIViewController.swift */; };
 		84CBF7FB25600CC5007353DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF7FA25600CC5007353DF /* AppDelegate.swift */; };
 		84CBF7FD25600CC5007353DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF7FC25600CC5007353DF /* SceneDelegate.swift */; };
-		84CBF7FF25600CC5007353DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF7FE25600CC5007353DF /* ViewController.swift */; };
 		84CBF80225600CC5007353DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CBF80025600CC5007353DF /* Main.storyboard */; };
 		84CBF80425600CC8007353DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CBF80325600CC8007353DF /* Assets.xcassets */; };
 		84CBF80725600CC8007353DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CBF80525600CC8007353DF /* LaunchScreen.storyboard */; };
+		84CBF81225600D37007353DF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF81125600D37007353DF /* CollectionViewCell.swift */; };
+		84CBF81525600D77007353DF /* ListOfCountriesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF81425600D77007353DF /* ListOfCountriesCollectionViewController.swift */; };
+		84CBF81825600EA9007353DF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF81725600EA9007353DF /* Country.swift */; };
+		84CBF81B25603305007353DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF81A25603305007353DF /* NetworkManager.swift */; };
+		84CBF81E256050DC007353DF /* DetailInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF81D256050DC007353DF /* DetailInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842E1E93256159F000C5144E /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
 		84CBF7F725600CC5007353DF /* CountriesOfTheWorldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesOfTheWorldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CBF7FA25600CC5007353DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CBF7FC25600CC5007353DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84CBF7FE25600CC5007353DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84CBF80125600CC5007353DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CBF80325600CC8007353DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CBF80625600CC8007353DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CBF80825600CC8007353DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CBF81125600D37007353DF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		84CBF81425600D77007353DF /* ListOfCountriesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCountriesCollectionViewController.swift; sourceTree = "<group>"; };
+		84CBF81725600EA9007353DF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		84CBF81A25603305007353DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84CBF81D256050DC007353DF /* DetailInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842E1E8D2561551B00C5144E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84CBF81D256050DC007353DF /* DetailInformationViewController.swift */,
+				84CBF81425600D77007353DF /* ListOfCountriesCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		842E1E8F2561552E00C5144E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84CBF81725600EA9007353DF /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		842E1E902561555500C5144E /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				84CBF81A25603305007353DF /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		842E1E912561556900C5144E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84CBF80025600CC5007353DF /* Main.storyboard */,
+				84CBF80525600CC8007353DF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		842E1E972561669E00C5144E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				842E1E93256159F000C5144E /* Extension + UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		84CBF7EE25600CC5007353DF = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +108,15 @@
 		84CBF7F925600CC5007353DF /* CountriesOfTheWorldApp */ = {
 			isa = PBXGroup;
 			children = (
+				842E1E8D2561551B00C5144E /* ViewControllers */,
+				842E1E912561556900C5144E /* Storyboards */,
+				842E1E902561555500C5144E /* NetworkManager */,
+				842E1E8F2561552E00C5144E /* Model */,
+				842E1E972561669E00C5144E /* Extensions */,
 				84CBF7FA25600CC5007353DF /* AppDelegate.swift */,
 				84CBF7FC25600CC5007353DF /* SceneDelegate.swift */,
-				84CBF7FE25600CC5007353DF /* ViewController.swift */,
-				84CBF80025600CC5007353DF /* Main.storyboard */,
+				84CBF81125600D37007353DF /* CollectionViewCell.swift */,
 				84CBF80325600CC8007353DF /* Assets.xcassets */,
-				84CBF80525600CC8007353DF /* LaunchScreen.storyboard */,
 				84CBF80825600CC8007353DF /* Info.plist */,
 			);
 			path = CountriesOfTheWorldApp;
@@ -137,9 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CBF7FF25600CC5007353DF /* ViewController.swift in Sources */,
+				84CBF81B25603305007353DF /* NetworkManager.swift in Sources */,
+				84CBF81525600D77007353DF /* ListOfCountriesCollectionViewController.swift in Sources */,
 				84CBF7FB25600CC5007353DF /* AppDelegate.swift in Sources */,
 				84CBF7FD25600CC5007353DF /* SceneDelegate.swift in Sources */,
+				84CBF81825600EA9007353DF /* Country.swift in Sources */,
+				84CBF81225600D37007353DF /* CollectionViewCell.swift in Sources */,
+				842E1E94256159F000C5144E /* Extension + UIViewController.swift in Sources */,
+				84CBF81E256050DC007353DF /* DetailInformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.CountriesOfTheWorldApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.CountriesOfTheWorldApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
